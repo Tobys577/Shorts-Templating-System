@@ -49,9 +49,10 @@ export async function LoadTemplates() : Promise<VideoTemplate[]> {
     return data;
   });
 
-  return templates; // array of JSON objects
+  return templates;
 }
 
+// Get a template, given the ID
 export async function GetLoadedTemplate(tmplID : string) : Promise<VideoTemplate | null> {
   if(Object.keys(templateCache).length == 0)
     await LoadTemplates();
