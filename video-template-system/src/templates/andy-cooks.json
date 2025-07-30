@@ -1,0 +1,14 @@
+{
+    "name": "Andy Cooks",
+    "id": "andy-cooks",
+    "icon": "template-icons/cooking.jpg",
+    "music": "required",
+    "clipTypes": [
+        { "type": "intro", "minDuration": 5, "maxDuration": 15, "subtitles": "required", "musicVolume": 0.5, "isFirst": true },
+        { "type": "standard", "minDuration": 1, "maxDuration": 5, "subtitles": "allowed", "musicVolume": 1.0 }
+    ],
+    "scenes": [
+        { "clipType": "intro", "minAmount": 1, "maxAmount": 1 },
+        { "clipType": "standard", "minAmount": 3 }
+    ]
+}

@@ -1,0 +1,14 @@
+{
+    "name": "Gaming",
+    "id": "gaming-example",
+    "icon": "template-icons/gaming.jpg",
+    "music": "required",
+    "clipTypes": [
+        { "type": "intro", "minDuration": 3, "maxDuration": 10, "subtitles": "required", "musicVolume": 0.5, "isFirst": true },
+        { "type": "standard", "minDuration": 1, "maxDuration": 45, "subtitles": "none", "musicVolume": 0.7 }
+    ],
+    "scenes": [
+        { "clipType": "intro", "minAmount": 1, "maxAmount": 1 },
+        { "clipType": "standard", "minAmount": 1 }
+    ]
+}
